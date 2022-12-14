@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 1. Aplicar CSS a un documento HTML</title>
+
+   <style>
+    .text-centrado{
+        text-align: center;
+    }
+
+    .text-derecha{
+        text-align: right;
+    }
+    
+   </style>
+
+</head>
+<body>
+
+    <!--Forma lineal-->
+    <div style="background-color: aqua;"  > 
+        <p style="text-align: center; color:blue;"> Texto <span style="color: red;"> Centrado </span> </p>
+   
+        <p style="text-align: center; background-color: hsl(0, 3%, 72%); color:blue;">Texto centrado sobre fondo de color plata.</p>
+  
+        <p style="text-align: right; color:blue;">Texto <span style="color: red;"> aliniado </span> a la derecha. </p>
+   
+        <p style="text-align: center; color:blue; background-color: hsl(0, 3%, 72%)">Otro texto centrado sobre dondo de color plata</p>
+    </div>
+
+    <!--Forma intena-->
+    <div style="background-color: aqua;">
+        <p class="text-centrado" style="color: blue; "> Texto <span style="color: red;"> Centrado </span>  </p>
+   
+        <p class="text-centrado" style="color: blue; background-color: hsl(0, 3%, 72%)"> Texto centrado sobre fondo de color plata. </p>
+  
+        <p class="text-derecha" style="color: blue;">Texto <span style="color: red;"> aliniado </span> a la derecha.</p>
+   
+        <p class="text-centrado" style="color: blue; background-color: hsl(0, 3%, 72%)"> Otro texto centrado sobre dondo de color plata </p>
+    </div>
+
+    <!--Forma externa-->
+    <div style="background-color: aqua;">
+        <p class="text-centrado" style="color: blue; "> Texto <span style="color: red;"> Centrado </span>  </p>
+   
+        <p class="text-centrado" style="color: blue; background-color: hsl(0, 3%, 72%)"> Texto centrado sobre fondo de color plata. </p>
+  
+        <p class="text-derecha" style="color: blue;">Texto <span style="color: red;"> aliniado </span> a la derecha.</p>
+   
+        <p class="text-centrado" style="color: blue; background-color: hsl(0, 3%, 72%)"> Otro texto centrado sobre dondo de color plata </p>
+    </div>
+
+    
+    
+</body>
+</html>
